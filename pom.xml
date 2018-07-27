@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>zeppelin</artifactId>
+        <artifactId>interpreter-parent</artifactId>
         <groupId>org.apache.zeppelin</groupId>
         <version>0.9.0-SNAPSHOT</version>
         <relativePath>../interpreter-parent</relativePath>
@@ -11,13 +11,13 @@
     <groupId>org.apache.zeppelin</groupId>
     <artifactId>zeppelin-mongodb</artifactId>
     <packaging>jar</packaging>
-    <version>${project.version}</version>
+    <version>0.9.0-SNAPSHOT</version>
     <name>Zeppelin: MongoDB interpreter</name>
     <url>http://www.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <zeppelin.version>0.7.0</zeppelin.version>
+        <zeppelin.version>${project.version}</zeppelin.version>
         <junit.version>4.11</junit.version>
         <interpreter.name>mongo</interpreter.name>
     </properties>
